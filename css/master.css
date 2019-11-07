@@ -1,0 +1,270 @@
+body {
+  background-color: white;
+}
+
+header {
+  background: #efefef;
+  overflow: hidden;
+  min-height: 100vh;
+  position : relative;
+  background: url("images/page1.jpg") top center no-repeat;
+}
+
+
+
+.h2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.h2  span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.h2 :hover span {
+  padding-right: 25px;
+}
+
+.h2:hover span:after {
+  opacity: 3;
+  right: 0;
+}
+
+
+header h1 {
+font-size: 80px;
+margin-bottom: 100px;
+font-family: cooper-black-std, serif;
+text-align: center;
+font-style: normal;
+font-weight: 400;
+position: absolute;
+left: 300px;
+top: 150px;
+transform: translate(50%;50%);
+
+}
+
+header h2 {
+font-size: 15px;
+font-family: Helvetica, sans-serif;
+font-style: normal;
+font-weight: 50;
+position: absolute;
+left: 470px;
+top: 350px;
+transform: translate(50%;50%);
+letter-spacing: 1px;
+background-color: white;
+border : 0.5px solid blue;
+background-color: #FEB39D;
+border-radius: 30px;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+}
+section {
+/*  width: 100%;
+float:left;
+  overflow: hidden;
+  */
+  min-height: 100vh;
+
+}
+
+.content-left {
+  display: flex;
+  justify-content: space-evenly;
+  top: 300em;
+
+
+}
+
+.content-left figure {
+  flex-basis: 600px;
+  top: 300em;
+  font-family: Helvetica, sans-serif;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+
+
+
+.content-left p {
+  flex-basis: 800px;
+  font-family: Helvetica, sans-serif;
+  background-color: #FEB39D;
+  border-radius: 60px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 6px 6px;
+  padding: 40px 32px;
+
+}
+
+
+.content-top {
+  font-family: Helvetica, sans-serif;
+  flex-basis: 650px;
+  padding: 50px;
+  margin: 20px;
+}
+
+
+
+
+section h1 {
+/*
+  margin-bottom: 100px;
+    font-weight: 400;
+    position: absolute;
+    right: 50px;
+    left: 50px;
+      transform: translate(50%;50%);
+   */
+  font-size: 60px;
+  font-family: cooper-black-std, serif;
+  font-style: normal;
+
+
+}
+
+section p {
+/*  position: absolute;
+  letter-spacing: 2px;
+  padding: 10px;
+  width: 300px;
+  height: 600px;
+  text-align: left;
+  left: 300px; */
+}
+
+
+.image-explication {
+/* width: 50em;
+position: absolute; */
+ width: 100%;
+}
+
+
+#pageA { ;
+font-family: Helvetica, sans-serif;
+overflow: hidden;
+background: url("images/page2.jpg") top center no-repeat;
+background-size: cover;
+margin-bottom: 3rem;
+font-size: 1em;
+line-height: 2rem;
+font-weight: 400;
+font-style: normal;
+letter-spacing: 0em;
+
+}
+#pageB {
+font-family: Helvetica, sans-serif;
+overflow: hidden;
+background: url("images/page3.jpg") top center no-repeat;
+background-size: cover;
+margin-bottom: 3rem;
+font-size: 1em;
+line-height: 2rem;
+font-weight: 400;
+font-style: normal;
+letter-spacing: 0em;
+
+}
+
+
+#pageC {
+font-family: Helvetica, sans-serif;
+overflow: hidden;
+background: url("images/page4.jpg") top center no-repeat;
+background-size: cover;
+margin-bottom: 3rem;
+font-size: 1em;
+line-height: 2rem;
+font-weight: 400;
+font-style: normal;
+letter-spacing: 0em;
+
+
+}
+
+#pageD {
+font-family:Helvetica, sans-serif;
+overflow: hidden;
+background: url("images/page5.jpg") top center no-repeat;
+background-size: cover;
+margin-bottom: 3rem;
+font-size: 1em;
+line-height: 2rem;
+font-weight: 400;
+font-style: normal;
+letter-spacing: 0em;
+
+}
+
+
+
+
+nav {
+  width: 100%;
+  position: fixed;
+  z-index:1;
+  top:80px;
+  background: rgba(255, 247, 240, 0.5);
+  font-family: Helvetica, sans-serif;
+  letter-spacing: 2px;
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+}
+
+ul {
+  width: fit-content;
+  margin: auto;
+  list-style: none;
+}
+
+ul li {
+float: left;
+margin: auto;
+list-style: none;
+
+
+}
+ul li a{
+  color: black;
+  text-decoration: none;
+  padding: 8px;
+
+
+}
+ul li a:hover {
+  text-decoration: none;
+
+}
+
+h1
+{color: black;
+  text-align: center;
+
+}
